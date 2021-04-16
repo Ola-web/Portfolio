@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+ul {list-style: none;
+}
+
+li {
+    padding-left: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #2268a5;
+}
+
+.header-list {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2em;
+}
+
+.header-link {
+    color: white;
+}
+
+.header-link:focus,
+.header-link:hover {
+    border-bottom: 1px solid white;
+}
+
+.header-item + .header-item {
+margin-left: 2em;
+}
+
+.hero {
+    text-align: center;
+    line-height: 55px;
+    background-image: linear-gradient(180deg, #296BA4, #5B2BA6);
+    padding: 15.5em 0;
+    margin-top: -5.2em;
+    
+}
+
+.hero > h1 {
+    font-size: 4em;
+}
+
+.hero > h2 {
+    font-size: 2.7em;
+    font-weight: 500;
+}
+
+.hero > p {
+    font-size: 1.5em;
+    
+}
+
+.about-me {
+    text-align: center;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+
+.about-me > h3 {
+    font-weight: 600;
+}
+
+.about-me > p {
+    width: 65%;
+    margin: 0 auto;
+    line-height: 24px;
+    margin-top: 1em;
+}
+
+.my-skill {
+    text-align: center;
+    background-color: #5B2BA6;
+  padding: 6em 0;
+    color: white;
+}
+
+.my-skill > h3 {
+  padding-bottom: 2em;
+}
+.skill-container > img {
+    height: 60px;
+}
+
+.icons + .icons {
+    padding-left: 2em;
+}
+
+.my-work {
+    padding: 4em;
+    text-align: center;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+
+.my-work > h3 {
+    padding-bottom: 2em;
+}
+
+.my-container {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.card-1 > img {
+    height:200px;
+}
+
+.card-1 > p {
+    padding-top: 1em;
+}
+
+.card-link {
+    color: black;
+}
+
+.card-link:focus,
+.card-link:hover{
+    border-bottom: 1px solid black;
+}
+
+.footer {
+    padding: 3em 2em 3em 2em;
+    background-color: #5B2BA6;
+    color: white;
+}
+
